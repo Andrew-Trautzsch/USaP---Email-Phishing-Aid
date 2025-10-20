@@ -18,10 +18,16 @@
   "background": {
     "scripts": ["background.js"]
   },
+  
   "options_ui": {
     "page": "options/options.html",
     "open_in_tab": false,
     "browser_style": true
+  },
+  "browser_action": {
+    "default_title": "Hello World Popup",
+    "default_popup": "popup/popup.html",
+    "default_icon": "images/icon-32px.png"
   },
   "permissions": [
     "storage"
