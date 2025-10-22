@@ -30,6 +30,10 @@
     "default_icon": "images/icon-32px.png"
   },
   "permissions": [
-    "storage"
+  "storage",
+  "messagesRead",
+  "messages",
+  "mailTabs",
+  "downloads"
   ]
 }
