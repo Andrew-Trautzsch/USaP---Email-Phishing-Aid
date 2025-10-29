@@ -25,7 +25,7 @@
     "browser_style": true
   },
   "browser_action": {
-    "default_title": "Hello World Popup",
+    "default_title": "Phishing Scrapper",
     "default_popup": "popup/popup.html",
     "default_icon": "images/icon-32px.png"
   },
