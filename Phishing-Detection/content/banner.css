@@ -1,0 +1,108 @@
+/* Full-width bar */
+#phish-banner {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  margin: 0 0 8px 0;
+  font-family: system-ui, sans-serif;
+  font-size: 13px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  border-bottom: 1px solid rgba(15, 23, 42, 0.18);
+  cursor: pointer;
+
+  /* Force text to dark no matter what theme is */
+  color: #111827 !important;
+}
+
+/* Force all children to dark text as well */
+#phish-banner * {
+  color: #111827 !important;
+}
+
+/* Backgrounds per state/risk */
+#phish-banner[data-state="idle"] {
+  background: #fed7aa; /* orange */
+}
+#phish-banner[data-risk="low"][data-state="done"] {
+  background: #dcfce7; /* green */
+}
+#phish-banner[data-risk="medium"][data-state="done"] {
+  background: #fef3c7; /* yellow/orange */
+}
+#phish-banner[data-risk="high"][data-state="done"] {
+  background: #fee2e2; /* red */
+}
+
+.phish-banner-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.phish-badge {
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.phish-text {
+  flex: 1;
+  font-size: 13px;
+}
+
+.phish-toggle {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+#phish-banner[data-state="idle"] .phish-toggle {
+  display: none; /* only show after analysis */
+}
+
+/* Details (levels 1–3) */
+.phish-details {
+  display: none;
+  padding-top: 4px;
+  border-top: 1px solid rgba(15, 23, 42, 0.18);
+  font-size: 12px;
+}
+
+#phish-banner.open .phish-details {
+  display: block;
+}
+
+.phish-level {
+  margin-top: 4px;
+}
+
+.phish-details h4 {
+  margin: 6px 0 2px;
+  font-size: 12px;
+}
+
+.phish-details ul {
+  margin: 2px 0 2px 18px;
+  padding: 0;
+}
+
+.phish-header-block {
+  margin-top: 4px;
+  max-height: 120px;
+  overflow: auto;
+  background: #f3f4f6;
+  border-radius: 4px;
+  border: 1px solid #e5e7eb;
+  padding: 4px 6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 11px;
+  line-height: 1.35;
+  white-space: pre-wrap;
+}

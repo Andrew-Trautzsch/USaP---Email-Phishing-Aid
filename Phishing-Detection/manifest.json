@@ -1,39 +1,47 @@
 {
   "manifest_version": 2,
-  "name": "Hello World",
-  "description": "A basic Hello World extension!",
+  "name": "Email Phishing Aid",
+  "description": "Scrape and analyze the selected email for phishing risk.",
   "version": "1.0",
-  "author": "[Your Name Here]",
+  "author": "Andrew",
+
   "browser_specific_settings": {
     "gecko": {
-      "id": "helloworld@yoursite.com",
+      "id": "phishing-aid@example.com",
       "strict_min_version": "128.0"
     }
   },
+
   "icons": {
     "64": "images/icon-64px.png",
     "32": "images/icon-32px.png",
     "16": "images/icon-16px.png"
   },
+
   "background": {
     "scripts": ["background.js"]
   },
-  
-  "options_ui": {
-    "page": "options/options.html",
-    "open_in_tab": false,
-    "browser_style": true
-  },
-  "browser_action": {
-    "default_title": "Phishing Scrapper",
+
+  "message_display_action": {
+    "default_title": "Analyze email",
     "default_popup": "popup/popup.html",
     "default_icon": "images/icon-32px.png"
   },
+
   "permissions": [
-  "storage",
-  "messagesRead",
-  "messages",
-  "mailTabs",
-  "downloads"
+    "storage",
+    "messagesRead",
+    "messagesModify",
+    "messages",
+    "downloads",
+    "mailTabs"
+  ],
+
+  "message_display_scripts": [
+    {
+      "js": ["content/banner.js"],
+      "css": ["content/banner.css"]
+    }
   ]
+
 }
