@@ -1,0 +1,190 @@
+{
+  "id": 1,
+  "messageId": "<0100019a2c8e640c-f066ead3-326c-49fa-b135-fd6fa8bbf228-000000@email.amazonses.com>",
+  "threadId": null,
+  "subject": "EXT: Mid-Project Update - Oct 29: Fall 2025 ST: USABLE SECURITY AND PRIVACY (CS-59995-001)",
+  "author": "\"Fall 2025 ST: USABLE SECURITY AND PRIVACY (CS-59995-001)\" <notifications@instructure.com>",
+  "to": [
+    "atrautzs@kent.edu"
+  ],
+  "cc": null,
+  "bcc": null,
+  "date": "2025-10-28T20:42:00.000Z",
+  "headers": {
+    "x-mozilla-status": [
+      "0001"
+    ],
+    "x-mozilla-status2": [
+      "00000000"
+    ],
+    "received": [
+      "from DM3PR08MB8951.namprd08.prod.outlook.com (2603:10b6:0:3d::13) by DM3PR08MB9400.namprd08.prod.outlook.com with HTTPS; Tue, 28 Oct 2025 20:42:03 +0000",
+      "from CH5P222CA0017.NAMP222.PROD.OUTLOOK.COM (2603:10b6:610:1ee::21) by DM3PR08MB8951.namprd08.prod.outlook.com (2603:10b6:0:3d::13) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9275.13; Tue, 28 Oct 2025 20:42:01 +0000",
+      "from CH2PEPF0000014A.namprd02.prod.outlook.com (2603:10b6:610:1ee:cafe::7) by CH5P222CA0017.outlook.office365.com (2603:10b6:610:1ee::21) with Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9275.13 via Frontend Transport; Tue, 28 Oct 2025 20:42:00 +0000",
+      "from a127-66.smtp-out.amazonses.com (54.240.127.66) by CH2PEPF0000014A.mail.protection.outlook.com (10.167.244.107) with Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9275.10 via Frontend Transport; Tue, 28 Oct 2025 20:42:01 +0000"
+    ],
+    "authentication-results": [
+      "spf=pass (sender IP is 54.240.127.66) smtp.mailfrom=mail-us-east-1.instructure.com; dkim=pass (signature was verified) header.d=instructure.com;dkim=pass (signature was verified) header.d=amazonses.com;dmarc=pass action=none header.from=instructure.com;compauth=pass reason=100"
+    ],
+    "received-spf": [
+      "Pass (protection.outlook.com: domain of mail-us-east-1.instructure.com designates 54.240.127.66 as permitted sender) receiver=protection.outlook.com; client-ip=54.240.127.66; helo=a127-66.smtp-out.amazonses.com; pr=C"
+    ],
+    "dkim-signature": [
+      "v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;\ts=6s5mwthdy2mujaxi3xuxuckrikhn6her; d=instructure.com;\tt=1761684120;\th=Date:From:Reply-To:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding;\tbh=VWSl3EVelgvyhiKSsDaz1QsaLiNllm4/iGpm9Fu9hEU=;\tb=OLz9yjJTFFeLeNkw0C0TMF6vhVwHKvb3aqR540qRC5+ZW64UCuTm/kltNQhqWw/A\t4ir4ZANX3ZqfkStKu6YyaJaQmw4MM1BcomJ8SGNWEcQ5Rk+C6N5TBD7/AilytAyF2bp\tHCFGdG+QdKNSIakCSDz0oywiBZYIgazLElSB5N/I=",
+      "v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;\ts=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw; d=amazonses.com; t=1761684120;\th=Date:From:Reply-To:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;\tbh=VWSl3EVelgvyhiKSsDaz1QsaLiNllm4/iGpm9Fu9hEU=;\tb=YsFRQMLnth8lOEaB49prE66nOXVdftnOspyqteUj/0qy+N3h+3/bJrC02gXl1CQS\tN2ixOF6jx/IchNc9HfwiLOqzfOJQ/9/2jwtmcHZINAC5wbes3/fzN552JQ76CMX7EXg\t24eT9JOZsPoOfOwNhVoXf/8Dtf6+cVeWieSDzoFQ="
+    ],
+    "x-on-bounce-route-to": [
+      "notification-service-failures-prod"
+    ],
+    "date": [
+      "Tue, 28 Oct 2025 20:42:00 +0000"
+    ],
+    "from": [
+      "\"Fall 2025 ST: USABLE SECURITY AND PRIVACY (CS-59995-001)\" <notifications@instructure.com>"
+    ],
+    "reply-to": [
+      "reply+aa740cd1fa6e37d0-15107~173518782-1761684120@notifications.canvaslms.com"
+    ],
+    "to": [
+      "atrautzs@kent.edu"
+    ],
+    "message-id": [
+      "<0100019a2c8e640c-f066ead3-326c-49fa-b135-fd6fa8bbf228-000000@email.amazonses.com>"
+    ],
+    "subject": [
+      "EXT: Mid-Project Update - Oct 29: Fall 2025 ST: USABLE SECURITY AND PRIVACY (CS-59995-001)"
+    ],
+    "auto-submitted": [
+      "auto-generated"
+    ],
+    "feedback-id": [
+      "::1.us-east-1.6bnAGrq+H33YQMZ/rl7AdPgJjS+jB1rbcCIER0hXfVM=:AmazonSES"
+    ],
+    "x-ses-outgoing": [
+      "2025.10.28-54.240.127.66"
+    ],
+    "return-path": [
+      "0100019a2c8e640c-f066ead3-326c-49fa-b135-fd6fa8bbf228-000000@mail-us-east-1.instructure.com"
+    ],
+    "x-ms-exchange-organization-expirationstarttime": [
+      "28 Oct 2025 20:42:01.1956 (UTC)"
+    ],
+    "x-ms-exchange-organization-expirationstarttimereason": [
+      "OriginalSubmit"
+    ],
+    "x-ms-exchange-organization-expirationinterval": [
+      "1:00:00:00.0000000"
+    ],
+    "x-ms-exchange-organization-expirationintervalreason": [
+      "OriginalSubmit"
+    ],
+    "x-ms-exchange-organization-network-message-id": [
+      "a8c31c05-aa2a-438a-4d6c-08de16627236"
+    ],
+    "x-eopattributedmessage": [
+      "0"
+    ],
+    "x-eoptenantattributedmessage": [
+      "e5a06f4a-1ec4-4d01-8f73-e7dd15f26134:0"
+    ],
+    "x-ms-exchange-organization-messagedirectionality": [
+      "Incoming"
+    ],
+    "x-ms-publictraffictype": [
+      "Email"
+    ],
+    "x-ms-traffictypediagnostic": [
+      "CH2PEPF0000014A:EE_|DM3PR08MB8951:EE_|DM3PR08MB9400:EE_"
+    ],
+    "x-ms-exchange-organization-authsource": [
+      "CH2PEPF0000014A.namprd02.prod.outlook.com"
+    ],
+    "x-ms-exchange-organization-authas": [
+      "Anonymous"
+    ],
+    "x-ms-office365-filtering-correlation-id": [
+      "a8c31c05-aa2a-438a-4d6c-08de16627236"
+    ],
+    "x-ms-exchange-atpmessageproperties": [
+      "SA|SL"
+    ],
+    "x-ms-exchange-organization-scl": [
+      "-1"
+    ],
+    "x-microsoft-antispam": [
+      "BCL:3;ARA:13230040|6062899009|32142699015|5082899009|12012899012|13102899012|13012899012|2092899012|3072899012|3092899012|4092899012|5062899012|69100299015|8096899003|4076899003|13003099007;"
+    ],
+    "x-forefront-antispam-report": [
+      "CIP:54.240.127.66;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SFE;H:a127-66.smtp-out.amazonses.com;PTR:a127-66.smtp-out.amazonses.com;CAT:NONE;SFS:(13230040)(6062899009)(32142699015)(5082899009)(12012899012)(13102899012)(13012899012)(2092899012)(3072899012)(3092899012)(4092899012)(5062899012)(69100299015)(8096899003)(4076899003)(13003099007);DIR:INB;"
+    ],
+    "x-ms-exchange-crosstenant-originalarrivaltime": [
+      "28 Oct 2025 20:42:01.1324 (UTC)"
+    ],
+    "x-ms-exchange-crosstenant-network-message-id": [
+      "a8c31c05-aa2a-438a-4d6c-08de16627236"
+    ],
+    "x-ms-exchange-crosstenant-id": [
+      "e5a06f4a-1ec4-4d01-8f73-e7dd15f26134"
+    ],
+    "x-ms-exchange-crosstenant-authsource": [
+      "CH2PEPF0000014A.namprd02.prod.outlook.com"
+    ],
+    "x-ms-exchange-crosstenant-authas": [
+      "Anonymous"
+    ],
+    "x-ms-exchange-crosstenant-fromentityheader": [
+      "Internet"
+    ],
+    "x-ms-exchange-transport-crosstenantheadersstamped": [
+      "DM3PR08MB8951"
+    ],
+    "x-ms-exchange-transport-endtoendlatency": [
+      "00:00:02.1676806"
+    ],
+    "x-ms-exchange-processed-by-bccfoldering": [
+      "15.20.9275.001"
+    ],
+    "x-microsoft-antispam-mailbox-delivery": [
+      "wl:1;pcwl:1;ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(920097)(811242)(255002)(410001)(930097)(140003);"
+    ],
+    "x-microsoft-antispam-message-info": [
+      "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"
+    ],
+    "mime-version": [
+      "1.0"
+    ],
+    "content-type": [
+      "message/rfc822"
+    ]
+  },
+  "plainText": "Dear All,\r\n\r\nHope you are doing well. I want to remind you that we have a mid-project update tomorrow (Wednesday, October 29). You will need to present your project progress as a group. Each group will have 12 minutes. You don’t need to spend too much time on fancy slides, instead present the progress you have made, what remains to be done, and your plan to complete the project by the deadline.\r\n\r\nFeel free to reach out if you have any questions.\r\n\r\nThanks,\r\nRaiful\r\n\r\nReplies to this email will be posted as a reply to the announcement, which will be seen by everyone in the course.\r\n\r\n[https://du11hjcvx0uqb.cloudfront.net/dist/images/email_signature-d2c5880612.png]\r\nView announcement <https://kent.instructure.com/courses/123131/announcements/1048810>  |  Update your notification settings<https://kent.instructure.com/profile/communication>\r\nCAUTION: EXTERNAL SENDER Do not click any links, open any attachments, or REPLY to the message unless you trust the sender and know the content is safe.\r\n",
+  "html": "<!DOCTYPE html><html dir=\"ltr\" lang=\"en\"><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width\">\r\n<style type=\"text/css\">\r\n/*\r\nChanges to font size (14->16) for smaller screens\r\ntable[class=body] is the only selector that works for all vendors\r\n*/\r\n@media only screen and (max-width: 620px) {\r\n  table[class=body] p,\r\n  table[class=body] ul,\r\n  table[class=body] ol,\r\n  table[class=body] td,\r\n  table[class=body] span,\r\n  table[class=body] a {\r\n    font-size: 16px !important;\r\n  }\r\n  /* remove padding for mobile so no gray shows */\r\n  table[class=body] .bodycell {\r\n    padding: 0 !important;\r\n    width: 100% !important;\r\n  }\r\n  /* reduce padding from 20->10 for mobile */\r\n  table[class=body] .maincell {\r\n    padding: 10px !important;\r\n  }\r\n}\r\n/*\r\nExternalClass fixes Outlook.com / Hotmail emails\r\n*/\r\n@media all {\r\n  .ExternalClass {\r\n    width: 100%;\r\n  }\r\n  .ExternalClass,\r\n  .ExternalClass p,\r\n  .ExternalClass span,\r\n  .ExternalClass font,\r\n  .ExternalClass td,\r\n  .ExternalClass div {\r\n    line-height: 100%;\r\n  }\r\n}\r\n  </style><!--\r\nbackground: white (could be gray)\r\ndefault sans serif fonts, 14px, 1.3, #444444\r\nvendor prefixes for Outlook (-ms) and iOS (-webkit)\r\nMargin is capitalized to fix Outlook.com\r\n-->\r\n</head>\r\n<body class=\"\" style=\"background-color:#ffffff; font-family:'Open Sans', 'Lucida Grande', 'Segoe UI', Arial, Verdana, 'Lucida Sans Unicode', Tahoma, 'Sans Serif'; font-size:14px; color: #444444; line-height:1.3; Margin:0; padding:0; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; -webkit-text-size-adjust:100%;\">\r\n<!-- body: background table (if body has a color, this should match) -->\r\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"body\" style=\"border-collapse:separate; background-color:#ffffff; width:100%; box-sizing:border-box; mso-table-lspace:0pt; mso-table-rspace:0pt;\">\r\n<tbody>\r\n<tr>\r\n<!-- width and max-width so it can scale for mobile -->\r\n<td class=\"bodycell\" style=\"max-width:600px; width:100%; font-family:'Open Sans', 'Lucida Grande', 'Segoe UI', Arial, Verdana, 'Lucida Sans Unicode', Tahoma, 'Sans Serif'; font-size:14px; vertical-align:top; display:block; box-sizing:border-box; padding:10px; Margin:0 auto !important;\">\r\n<!-- for older versions of Outlook that don't support max-width --><!--[if (gte mso 9)|(IE)]>\r\n<table width=\"600\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td>\r\n<![endif]--><!-- main: white box for content -->\r\n<table class=\"main\" style=\"background:#fff; width:100%; border-collapse:separate; mso-table-lspace:0pt; mso-table-rspace:0pt; \">\r\n<tbody>\r\n<tr>\r\n<td class=\"maincell\" style=\"font-family:sans-serif; font-size:14px; vertical-align:top; box-sizing:border-box; padding:20px;\">\r\n<p>Dear All,</p>\r\n<p>Hope you are doing well. I want to remind you that we have a mid-project update\r\n<strong>tomorrow (Wednesday, October 29)</strong>. You will need to present your project progress as a group. Each group will have\r\n<strong>12 minutes</strong>. You don’t need to spend too much time on fancy slides, instead present the progress you have made, what remains to be done, and your plan to complete the project by the deadline.</p>\r\n<p>Feel free to reach out if you have any questions.</p>\r\n<p>Thanks,<br>\r\nRaiful</p>\r\n<p>Replies to this email will be posted as a reply to the announcement, which will be seen by everyone in the course.\r\n</p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<!-- /.main --><!-- logo: branding -->\r\n<table class=\"logo\" style=\"width:100%; box-sizing:border-box; border-collapse:separate; mso-table-lspace:0pt; mso-table-rspace:0pt; \">\r\n<tbody>\r\n<tr>\r\n<td class=\"logocell\" style=\"text-align:center; vertical-align:top; box-sizing:border-box; padding:10px;\">\r\n<img src=\"https://du11hjcvx0uqb.cloudfront.net/dist/images/email_signature-d2c5880612.png\" alt=\"\">\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<!-- /.logo --><!-- footer: gray text below main -->\r\n<table class=\"footer\" style=\"width:100%; box-sizing:border-box; border-collapse:separate; mso-table-lspace:0pt; mso-table-rspace:0pt; \">\r\n<tbody>\r\n<tr>\r\n<td class=\"footercell\" style=\"font-family:sans-serif; font-size:14px; vertical-align:top; color:#a8b9c6; font-size:12px; text-align:center; padding:10px; box-sizing:border-box; \">\r\n<a href=\"https://kent.instructure.com/courses/123131/announcements/1048810\">View announcement\r\n</a>&nbsp;|&nbsp; <a href=\"https://kent.instructure.com/profile/communication\" style=\"white-space: nowrap;\">\r\nUpdate your notification settings</a> </td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<!-- /.footer --><!--[if (gte mso 9)|(IE)]>\r\n</td></tr></table>\r\n<![endif]--></td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<!-- /.body -->\r\n<p class=\"MsoNormal\" style=\"background:#FFEB9C\"><b><span style=\"font-size:10.0pt;color:#9C6500;background:#FFEB9C\">CAUTION:\r\n</span><strong><span style=\"font-family:&quot;Calibri&quot;,sans-serif;color:red\">EXTERNAL SENDER</span></strong></b><span style=\"color:black\"> Do not click any links, open any attachments, or REPLY to the message unless you trust the sender and know the content is safe.\r\n</span></p>\r\n</body>\r\n</html>\r\n",
+  "textFromHtml": "Dear All,\nHope you are doing well. I want to remind you that we have a mid-project update\ntomorrow (Wednesday, October 29). You will need to present your project progress as a group. Each group will have\n12 minutes. You don’t need to spend too much time on fancy slides, instead present the progress you have made, what remains to be done, and your plan to complete the project by the deadline.\nFeel free to reach out if you have any questions.\nThanks,\nRaiful\nReplies to this email will be posted as a reply to the announcement, which will be seen by everyone in the course.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nView announcement\n |  \nUpdate your notification settings \n\n\n\n\n\n\n\n\nCAUTION:\nEXTERNAL SENDER Do not click any links, open any attachments, or REPLY to the message unless you trust the sender and know the content is safe.",
+  "links": [
+    {
+      "href": "https://kent.instructure.com/courses/123131/announcements/1048810",
+      "text": "View announcement",
+      "contextSnippet": "View announcement"
+    },
+    {
+      "href": "https://kent.instructure.com/profile/communication",
+      "text": "Update your notification settings",
+      "contextSnippet": "Update your notification settings"
+    },
+    {
+      "href": "https://du11hjcvx0uqb.cloudfront.net/dist/images/email_signature-d2c5880612.png]",
+      "text": null,
+      "contextSnippet": " be seen by everyone in the course.\r\n\r\n[https://du11hjcvx0uqb.cloudfront.net/dist/images/email_signature-d2c5880612.png]\r\nView announcement <https://kent.instructure.com/courses/123131/announcements/1"
+    }
+  ],
+  "attachments": [
+    {
+      "partName": "1",
+      "name": null,
+      "contentType": "multipart/alternative",
+      "size": 6134
+    }
+  ],
+  "rawSnippet": "Dear All,\r\n\r\nHope you are doing well. I want to remind you that we have a mid-project update tomorrow (Wednesday, October 29). You will need to present your project progress as a group. Each group will have 12 minutes. You don’t need to spend too much time on fancy slides, instead present the progress you have made, what remains to be done, and your plan to complete the project by the deadline.\r\n\r\nFeel free to reach out if you have any questions.\r\n\r\nThanks,\r\nRaiful\r\n\r\nReplies to this email will be posted as a reply to the announcement, which will be seen by everyone in the course.\r\n\r\n[https://du11hjcvx0uqb.cloudfront.net/dist/images/email_signature-d2c5880612.png]\r\nView announcement <https://kent.instructure.com/courses/123131/announcements/1048810>  |  Update your notification settings<https://kent.instructure.com/profile/communication>\r\nCAUTION: EXTERNAL SENDER Do not click any links, open any attachments, or REPLY to the message unless you trust the sender and know the content is safe.\r\n",
+  "fetchedAt": "2025-10-29T13:52:21.131Z"
+}
