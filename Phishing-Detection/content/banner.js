@@ -69,8 +69,8 @@
         </div>
         ${level2Html}
         <div class="phish-level">
-        <h4>Header signals</h4>
-        <div><strong>authentication-results:</strong></div>
+        
+        <div><strong>Level 3: Authentication Results</strong></div>
         <pre class="phish-header-block">${authResults || "(none found)"}</pre>
         ${linksHtml}
         </div>
